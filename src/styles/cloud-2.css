@@ -1,0 +1,85 @@
+.cloud-2 {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.cloud-2-child {
+  border-radius: 10px;
+  margin: 5px;
+}
+
+/*  */
+.light-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 10px 10px 0px 0px;
+  flex: 1;
+}
+
+.light-text-content {
+  font-size: 50px;
+  font-weight: 700;
+  color: #000000;
+}
+/*  */
+
+/*  */
+.light-switch {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+  border-radius: 0px 0px 10px 10px;
+  flex: 2;
+}
+
+.switch {
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+.switch-big {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 64px;
+  width: 200px;
+  height: 100px;
+}
+
+.inner-shape-big {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 190px;
+  height: 90px;
+  border-radius: 64px;
+  margin: 1px;
+  background-color: #98fb98;
+}
+
+.circle-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  margin-left: 6px;
+  margin-right: 6px;
+  background-color: #ffffff;
+}
+
+.state-content {
+  color: #000000;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  font-size: 40px;
+}
+/*  */

@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  font-family: "Dosis", sans-serif;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.scaler {
+  -moz-transform: scale(0.95);
+  -o-transform: scale(0.95);
+  -webkit-transform: scale(0.95);
+  transform: scale(0.95);
+  width: 700px;
+  height: 960px;
+}
+
+.flex-container-1 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  width: 700px;
+  height: 960px;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cloud {
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.device-field-wrapper {
+  display: none;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  width: 700px;
+  height: 960px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.device-field {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 850px;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  border-radius: 25px;
+}
+
+.device-field-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #999999;
+  text-align: center;
+  width: 500px;
+  height: 80px;
+  border-radius: 25px 25px 0px 0px;
+  color: #ffffff;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.device-field-nav:hover {
+  cursor: pointer;
+  background-color: #98fb98;
+  color: #000000;
+}
+
+.device-field-nav-content {
+  font-size: 30px;
+}
+
+.device-field-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 6;
+}
+
+.wifi-field {
+  padding: 45px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.wifi-field > label {
+  display: block;
+  font-size: 25px;
+}
+
+.wifi-field > input {
+  display: block;
+  margin: 20px;
+  border: 6px solid #ffffff;
+  border-radius: 6px 6px 6px 6px;
+  background: none;
+  background-color: rgba(255, 255, 255, 0.4);
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  font-family: "Quicksand", sans-serif;
+}
+
+#send-button {
+  margin: auto;
+  border: 2px solid #ffffff;
+  background: #999999;
+  font-size: 15px;
+  width: 100px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+#send-button:hover {
+  background-color: #98fb98;
+  color: #000000;
+}
+
+.wifi-status {
+  font-family: "Inconsolata", monospace;
+  font-weight: 800;
+  font-size: 20px;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95px;
+  height: 30px;
+  border-radius: 6px;
+  border: 6px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.thebox {
+  background-color: #ffffff;
+  width: 15px;
+  height: 15px;
+  border-radius: 5px;
+  border: 3px solid #999999;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: 0.5s;
+}
+
+.thebox:hover {
+  background-color: #98fb98;
+  border: 3px solid #ffffff;
+}
+
+#checkPass {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
